@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "guc-assistant"
+version = "0.1.0"
+description = ""
+authors = ["Mathew Hany <mathew.hanybb@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+guc-cms-scrapper = "0.2.1"
+boto3 = "^1.35.24"
+todoist-api-python = "^2.1.7"
+dacite = "^1.8.1"
+guc-mail-scrapper = "^0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
